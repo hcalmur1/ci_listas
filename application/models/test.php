@@ -1,10 +1,10 @@
-<?php 
+<?php
 /**
-* 
+*
 */
 class Test extends CI_Model
 {
-	
+
 	function devolver_departamento()
 	{
 		$sql = $this->db->query('SELECT id,desdep FROM departamentos');
